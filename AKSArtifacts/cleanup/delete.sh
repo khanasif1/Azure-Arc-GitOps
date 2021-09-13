@@ -1,9 +1,8 @@
 kubectl config set-context --current --namespace=arc-k8-org
 <#
 ========DELETE============
+microk8s kubectl delete ns arc-k8-org
 
-#WEB
-kubectl delete deployment web -n arc-k8-org
-kubectl delete  services web-service  -n arc-k8-org
-#>
+helm delete nginx-ingress
+
 
