@@ -1,3 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: "arc-k8-org"
+  labels:
+    name: "arc-k8-org"
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
