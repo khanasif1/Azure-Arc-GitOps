@@ -3,7 +3,7 @@
 #kubectl config set-context --current --namespace=$namespace
 echo "*****Installing Ingress******"
 
-outns=$(microk8s kubectl get ns -o=name) `
+outns=$(microk8s kubectl get ns -o=name) 
 for x in $outns 
     do 
         echo "$x" 
