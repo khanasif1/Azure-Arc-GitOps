@@ -1,8 +1,9 @@
-kubectl config set-context --current --namespace=arc-k8-org
+#========DELETE Ingress============
+microk8s disable ingress
 
-#========DELETE============
-microk8s kubectl delete ns arc-k8-org
+#========DELETE Add============
+#microk8s kubectl delete ns arc-k8-org
 
-helm delete nginx-ingress
+
 
 
