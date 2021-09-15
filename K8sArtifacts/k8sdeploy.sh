@@ -6,7 +6,7 @@ echo "*****Installing Ingress******"
 outns=$(microk8s kubectl get ns -o=name) \
 for x in $outns \
     do \
-        echo "$x"
+        echo "$x" \
         if [[ "$x" = "namespace/ingress" ]] \
         then  \
             echo "match" \
