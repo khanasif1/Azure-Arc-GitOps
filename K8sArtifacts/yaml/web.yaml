@@ -43,7 +43,7 @@ spec:
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
           - name: message
-            value: V2 - K8s - Welcome to Azure Arc GitOps            
+            value: V2 K8s - Welcome to Azure Arc GitOps            
           ports:
           - containerPort: 80
 ---
