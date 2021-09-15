@@ -18,7 +18,7 @@ for x in $outns \
 
 #************Apps************
 echo "*****Deploy Web Application******"
-microk8s kubectl apply -f https://raw.githubusercontent.com/khanasif1/Azure-Arc-GitOps/main/K8sArtifacts/yaml/web.yaml
+#microk8s kubectl apply -f https://raw.githubusercontent.com/khanasif1/Azure-Arc-GitOps/main/K8sArtifacts/yaml/web.yaml
 
 #*******Ingress Controller*********
 echo "*****Deploy Ingress Routing******"
