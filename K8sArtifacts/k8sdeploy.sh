@@ -10,10 +10,10 @@ for x in $outns
         echo "$x" 
         if [[ "$x" = "namespace/ingress" ]] 
         then  
-            echo "match" 
-            wget -O - https://raw.githubusercontent.com/khanasif1/Azure-Arc-GitOps/main/K8sArtifacts/IngressController/Ingress.sh | sudo bash
-        else 
             echo "Ingress already exists!" 
+        else 
+            echo "Ingress missing" 
+            wget -O - https://raw.githubusercontent.com/khanasif1/Azure-Arc-GitOps/main/K8sArtifacts/IngressController/Ingress.sh | sudo bash
         fi 
     done
 
