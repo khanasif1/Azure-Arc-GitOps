@@ -24,3 +24,6 @@ microk8s kubectl apply -f https://raw.githubusercontent.com/khanasif1/Azure-Arc-
 #*******Ingress Controller*********
 echo "*****Deploy Ingress Routing******"
 #microk8s kubectl apply -f https://raw.githubusercontent.com/khanasif1/Azure-Arc-GitOps/main/K8sArtifacts/IngressController/ingress.yaml 
+
+
+

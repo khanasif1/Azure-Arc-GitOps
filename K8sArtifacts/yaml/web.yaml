@@ -16,14 +16,7 @@ spec:
         containers:
         - name: web
           image:  khanasif1/azure_arc_k8_web:rc1.0
-          imagePullPolicy: Always
-          resources:
-            requests:
-              memory: "64Mi"
-              cpu: "250m"
-            limits:
-              memory: "128Mi"
-              cpu: "500m"          
+          imagePullPolicy: Always         
           readinessProbe:
             httpGet:
               port: 80
@@ -36,7 +29,7 @@ spec:
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
           - name: message
-            value: V3 K8s - Welcome to Azure Arc GitOps            
+            value: V0 K8s - Welcome to Azure Arc GitOps            
           ports:
           - containerPort: 80
 ---
