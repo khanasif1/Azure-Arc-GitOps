@@ -7,7 +7,7 @@ spec:
   selector:
       matchLabels:
         app: web
-  replicas: 1
+  replicas: 10
   template:
       metadata:
         labels:
@@ -29,7 +29,7 @@ spec:
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
           - name: message
-            value: V2 K8s - Welcome to Azure Arc GitOps            
+            value: V:0 K8s - Welcome to Azure Arc GitOps            
           ports:
           - containerPort: 80
 ---
