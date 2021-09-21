@@ -18,7 +18,7 @@ $arcClusterName = "Azure-VM-K8s-Cluster"
 
  
 az k8s-configuration create `
- --name arc-web1 `
+ --name arc-web2 `
  --cluster-name $arcClusterName --resource-group $resourceGroup `
   --operator-instance-name arc-web  --operator-namespace $ns `
   --repository-url $appClonedRepo `
