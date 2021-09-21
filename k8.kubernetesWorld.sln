@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AKSArtifacts", "AKSArtifact
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yaml", "yaml", "{14706680-9673-40DE-B498-E524C6BEC63B}"
 	ProjectSection(SolutionItems) = preProject
-		AKSArtifacts\yaml\web.yaml = AKSArtifacts\yaml\web.yaml
+		K8sArtifacts\yaml\web.yaml = K8sArtifacts\yaml\web.yaml
 	EndProjectSection
 EndProject
 Global
