@@ -1,5 +1,4 @@
-﻿#Reference: https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
-###########################################################################
+﻿###########################################################################
 ##############################Web DEPLOYMENT###############################
 
 cd C:\_dev\_github\Azure-Arc-GitOps\k8.kubernetesWorld.Web

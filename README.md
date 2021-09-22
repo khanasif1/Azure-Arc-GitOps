@@ -1,4 +1,4 @@
-# Azure-Arc-GitOps
+# Azure Arc enabled Kubernetes GitOps
 
 <!-- wp:heading -->
 <h2>Azure Arc Kubernetes with GitOps</h2>
