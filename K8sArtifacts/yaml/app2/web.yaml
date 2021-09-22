@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web
+  name: web2
   namespace: arc-k8
 spec:
   selector:
       matchLabels:
-        app: web
+        app: web2
   replicas: 1
   template:
       metadata:
         labels:
-            app: web
+            app: web2
       spec:
         containers:
-        - name: web
+        - name: web2
           image:  khanasif1/azure_arc_k8_web:rc2.0
           imagePullPolicy: Always         
           readinessProbe:
@@ -40,7 +40,7 @@ metadata:
   namespace: arc-k8
 spec:
   selector:
-    app: web
+    app: web2
   ports:
     - protocol: TCP
       port: 80

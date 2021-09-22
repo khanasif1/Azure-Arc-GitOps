@@ -2,14 +2,14 @@
 ##############################Web DEPLOYMENT###############################
 
 cd C:\_dev\_github\Azure-Arc-GitOps\k8.kubernetesWorld.Web
-docker build -t azure_arc_k8_web:rc2 .
+docker build -t azure_arc_k8_web:rc1 .
 docker run -d -p 8080:80 -e message='Docker : Welcome to Azure Arc GitOps'  --name azure_arc_web azure_arc_k8_web:rc1
 #Start-Process "http://localhost:8080/home/index"
 
 
 ###########################################################################
 ########################Push Docker Hub####################################
-docker login -u=**** -p=****
+docker login -u=khanasif1 -p=Redhat0!
 docker images -a
 docker tag azure_arc_k8_web:rc2 khanasif1/azure_arc_k8_web:rc2.0
 docker push khanasif1/azure_arc_k8_web:rc2.0
