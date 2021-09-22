@@ -27,7 +27,7 @@ az k8s-configuration create `
 
 
   $ns="arc-k8"
-  az k8s-configuration create `
+az k8s-configuration create `
  --name arc-web1 `
  --cluster-name $arcClusterName --resource-group $resourceGroup `
   --operator-instance-name arc-web  --operator-namespace $ns `
