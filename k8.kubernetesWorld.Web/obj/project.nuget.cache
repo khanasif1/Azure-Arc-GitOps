@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ee5LyL2IhbsejXZqwYyVPPYMsLbi9TZLHXe1XCVm9UdVvNAXzD39rzK5g6L0/V7XemlXn8yLwGRYNdZbkk8Hsg==",
+  "dgSpecHash": "MazlulmR6pwwHxSw2u3V2feTAXVWoiuebiEWd+mIZxMWiuPoxZUUWEH9gDRZfcxt7oWGU/oEg8CFJav071ElXg==",
   "success": true,
   "projectFilePath": "C:\\_dev\\_github\\Azure-Arc-GitOps\\k8.kubernetesWorld.Web\\k8.kubernetesWorld.Web.csproj",
   "expectedPackageFiles": [
